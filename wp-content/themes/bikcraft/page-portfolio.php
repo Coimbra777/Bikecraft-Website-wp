@@ -2,6 +2,9 @@
 // Template Name: portifolio
 ?>
 <?php get_header(); ?>
+
+<?php get_header(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<section class="introducao-interna interna_portfolio">
 			<div class="container">
 				<h1>Portfólio</h1>
@@ -53,5 +56,6 @@
 				</ul>
 			</div>
 		</section>
+		<?php endwhile; else: endif; ?> 
 
 		<?php get_footer(); ?>
