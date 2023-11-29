@@ -91,6 +91,6 @@
 				<a href="sobre.html" class="btn btn-preto">Sobre</a>
 			</div>
 		</section>
+
 		<?php endwhile; else: endif; ?> 
-		
 		<?php get_footer(); ?>
