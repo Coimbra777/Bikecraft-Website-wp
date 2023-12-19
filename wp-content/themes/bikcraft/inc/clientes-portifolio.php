@@ -12,3 +12,10 @@
 					</li>
 
 				</ul>
+
+<?php if(!is_page('portifolio')) { ?>
+<div class="call">
+	<p><?php the_field('chamada_portifolio'); ?></p>
+		<a href="/Bikcraft/portifolio/" class="btn">Portfólio</a>
+	</div>
+<?php } ?>
