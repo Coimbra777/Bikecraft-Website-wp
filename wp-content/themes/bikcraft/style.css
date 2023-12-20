@@ -16,6 +16,10 @@ Version: 1.0
 @import "css/contato.css";
 @import "css/style-raw.css";
 
+.customize-support .header {
+  margin-top: 32px;
+}
+
 /* Estilos Gerais */
 
 body {
@@ -124,7 +128,6 @@ img {
   background: #fec63e; /* Amarelo */
   padding: 15px 0;
   z-index: 10;
-  margin-top: 32px;
 }
 
 .header_menu {
