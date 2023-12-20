@@ -14,6 +14,7 @@ Version: 1.0
 @import "css/produtos.css";
 @import "css/portfolio.css";
 @import "css/contato.css";
+@import "css/style-raw.css";
 
 /* Estilos Gerais */
 
@@ -123,6 +124,7 @@ img {
   background: #fec63e; /* Amarelo */
   padding: 15px 0;
   z-index: 10;
+  margin-top: 32px;
 }
 
 .header_menu {
