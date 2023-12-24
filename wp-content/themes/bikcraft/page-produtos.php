@@ -1,5 +1,5 @@
 <?php
-// Template Name: produtos
+// Template Name: Produtos
 ?>
 <?php get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -80,21 +80,7 @@
 
 					<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
 				</form>
-				<div class="orcamento_dados grid-8">
-					<h3>Dados</h3>
-					<span>+55 21 9999-9999</span>
-					<span>orcamento@bikcraft.com</span>
-					<h3>Monte a sua Bikcraft</h3>
-					<p>Escolha as especificações:</p>
-					<ul>
-						<li>- Cores</li>
-    				<li>- Estilo</li>
-    				<li>- Medidas</li>
-   					<li>- Acessórios</li>
-    				<li>- E Outros</li>
-					</ul>
-				</div>
-			</div>
+				<?php include(TEMPLATEPATH . "/inc/produtos-orcamento.php"); ?>
 		</section>
 		<?php endwhile; else: endif; ?> 
 
