@@ -138,3 +138,36 @@ add_action( 'init', 'register_my_menu' );
 	);
 	wp_nav_menu( $args );
 ?>
+
+<?php
+	$args = array (
+		'post_type' => 'produtos',
+		'order'   => 'ASC'
+	);
+	$the_query = new WP_Query ( $args );
+?>
+
+<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+	<h1><?php the_title(); ?></h1>
+<?php endwhile; else: endif; ?>
+
+// Reset o Loop
+<?php wp_reset_query(); wp_reset_postdata(); ?>
+
+19 - Adicionar o Menu
+
+// Habilitar Menus
+add_theme_support('menus');
+
+function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
+<?php
+	$args = array(
+		'menu' => 'principal',
+		'container' => false
+	);
+	wp_nav_menu( $args );
+?>
