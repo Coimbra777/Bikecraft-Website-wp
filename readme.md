@@ -1,21 +1,21 @@
-# Projeto WordPress
+# Projeto Curso Origamid WordPress - Bikcraft
 
-Este é um projeto desenvolvido em WordPress, uma poderosa plataforma de gerenciamento de conteúdo (CMS) amplamente utilizada para a criação de sites e blogs. Este README fornece informações básicas sobre o projeto, sua estrutura e como você pode configurá-lo.
+Este é um projeto desenvolvido em WordPress, uma poderosa plataforma de gerenciamento de conteúdo (CMS) amplamente utilizada para a criação de sites e blogs. Foi desenvolvido no decorrer do curso de WordPress como CMS e README fornece informações básicas sobre o projeto,
+sua estrutura e como você pode configurá-lo. 
 
 ## Descrição
 
-O projeto foi criado para [descrever brevemente o propósito do seu site ou aplicação]. Ele incorpora funcionalidades específicas, como [listar funcionalidades principais], e foi desenvolvido para [descrever o público-alvo ou qualquer outro detalhe relevante].
-
-## Tecnologias Utilizadas
+O projeto foi criado para conhecimento e desenvolvimento com a ferramenta do WorPress. Ele incorpora funcionalidades específicas, como página de Bicicletas customizadas, e foi desenvolvido para fixação do curso e da ferramenta.
+Tecnologias Utilizadas
 
 - **WordPress**: A estrutura principal do projeto.
-- **Tema Personalizado**: [Se você estiver usando um tema personalizado, liste-o aqui.]
-- **Plugins Adicionais**: [Se você estiver usando plugins específicos, liste-os aqui.]
+- **Tema Personalizado**: Bickraft
+- **Plugins Adicionais**: Advanced Custom Fields
 
 ## Instalação
 
 1. **Requisitos do Sistema**: Certifique-se de que seu ambiente atenda aos requisitos do WordPress.
-2. **Clone o Repositório**: `git clone https://github.com/seu-usuario/seu-projeto-wordpress.git`
+2. **Clone o Repositório**: `git clone (https://github.com/Coimbra777/Bikecraft-Website-wp).git`
 3. **Instale o WordPress**: Siga as instruções para instalar o WordPress no seu servidor.
 4. **Ative o Tema e Plugins**: Ative o tema e quaisquer plugins necessários no painel de administração do WordPress.
 
@@ -35,12 +35,3 @@ Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga
 4. Envie para a branch original: `git push origin minha-nova-feature`
 5. Abra um Pull Request.
 
-## Problemas Conhecidos
-
-Liste quaisquer problemas conhecidos ou limitações do projeto aqui.
-
-## Licença
-
-Este projeto está licenciado sob a [Nome da Licença]. Veja o arquivo LICENSE.md para mais detalhes.
-
----
