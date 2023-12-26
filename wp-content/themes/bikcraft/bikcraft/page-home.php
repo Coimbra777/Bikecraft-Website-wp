@@ -11,7 +11,6 @@ get_header();
 	$background_medium = wp_get_attachment_image_src($imagem_id, 'medium');
 ?>
 
-
 <style type="text/css">
 .introducao {
 	background: url('<?php echo $background_large[0] ?>') no-repeat center;
