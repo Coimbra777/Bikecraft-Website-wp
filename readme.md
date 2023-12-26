@@ -3,6 +3,12 @@
 Este é um projeto desenvolvido em WordPress, uma poderosa plataforma de gerenciamento de conteúdo (CMS) amplamente utilizada para a criação de sites e blogs. Foi desenvolvido no decorrer do curso de WordPress como CMS e README fornece informações básicas sobre o projeto,
 sua estrutura e como você pode configurá-lo. 
 
+
+![Captura de Tela (32)](https://github.com/Coimbra777/Bikecraft-Website-wp/assets/103074944/0b29543a-3143-471d-a688-c50ab965420a)
+![Captura de Tela (33)](https://github.com/Coimbra777/Bikecraft-Website-wp/assets/103074944/1d5d99cc-ec16-4f65-85da-4b3745ccab2d)
+![Captura de Tela (34)](https://github.com/Coimbra777/Bikecraft-Website-wp/assets/103074944/fa4e09e1-d557-4f7a-b03b-119c4c7847d6)
+
+
 ## Descrição
 
 O projeto foi criado para conhecimento e desenvolvimento com a ferramenta do WorPress. Ele incorpora funcionalidades específicas, como página de Bicicletas customizadas, e foi desenvolvido para fixação do curso e da ferramenta.
